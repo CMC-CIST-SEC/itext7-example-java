@@ -1,2 +1,1 @@
-    For more information, please contact iText Software at this address:
-    sales@itextpdf.com
+LicenseKey.loadLicenseFile(new File("./itextkey.json"));

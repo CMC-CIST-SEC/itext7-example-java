@@ -1,4 +1,4 @@
-package com.itextpdf.samples.signatures.chapter02;
+package com.itextpdf.signatures.chapter02;
 
 import com.itextpdf.io.font.PdfEncodings;
 import com.itextpdf.io.font.constants.StandardFonts;
@@ -9,18 +9,12 @@ import com.itextpdf.kernel.pdf.PdfReader;
 import com.itextpdf.kernel.pdf.StampingProperties;
 import com.itextpdf.kernel.pdf.xobject.PdfFormXObject;
 import com.itextpdf.layout.Canvas;
-import com.itextpdf.layout.properties.BaseDirection;
 import com.itextpdf.layout.element.Paragraph;
 import com.itextpdf.layout.element.Text;
+import com.itextpdf.layout.properties.BaseDirection;
 import com.itextpdf.layout.properties.TextAlignment;
-import com.itextpdf.signatures.BouncyCastleDigest;
-import com.itextpdf.signatures.DigestAlgorithms;
-import com.itextpdf.signatures.IExternalDigest;
-import com.itextpdf.signatures.IExternalSignature;
-import com.itextpdf.signatures.PdfSignatureAppearance;
-import com.itextpdf.signatures.PdfSigner;
-import com.itextpdf.signatures.PrivateKeySignature;
-
+import com.itextpdf.licensing.base.LicenseKey;
+import com.itextpdf.signatures.*;
 import org.bouncycastle.jce.provider.BouncyCastleProvider;
 
 import java.io.File;
@@ -144,6 +138,7 @@ public class C2_06_SignatureAppearance {
     }
 
     public static void main(String[] args) throws IOException, GeneralSecurityException {
+        LicenseKey.loadLicenseFile(new File("./itextkey.json"));
         File file = new File(DEST);
         file.mkdirs();
 
