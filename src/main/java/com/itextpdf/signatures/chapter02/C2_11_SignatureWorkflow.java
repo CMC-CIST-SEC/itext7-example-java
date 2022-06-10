@@ -26,6 +26,9 @@ import java.security.PrivateKey;
 import java.security.Security;
 import java.security.cert.Certificate;
 
+/**
+ * Từng người ký lần lượt
+ */
 public class C2_11_SignatureWorkflow {
     public static final String DEST = "./target/signatures/chapter02/";
     public static final String FORM = "./target/signatures/chapter02/form.pdf";

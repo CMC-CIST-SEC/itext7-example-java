@@ -24,6 +24,9 @@ import java.security.PrivateKey;
 import java.security.Security;
 import java.security.cert.Certificate;
 
+/**
+ * Khóa vùng chứa chữ ký
+ */
 public class C2_12_LockFields {
     public static final String DEST = "./target/signatures/chapter02/";
     public static final String FORM = "./target/signatures/chapter02/form_lock.pdf";

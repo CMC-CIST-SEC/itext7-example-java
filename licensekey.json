@@ -1,0 +1,246 @@
+[
+  {
+    "product": "itext-core",
+    "licensee": {
+      "company": "N/A",
+      "name": "nguyen viet hung",
+      "email": "hunga1k15tv@gmail.com"
+    },
+    "key": "c5a70569414808be7ebc20ec6b72078498ecd958e47e032067d5b2ed0261e0ae",
+    "creationDate": "2022-06-08",
+    "expirationDate": "2022-07-08",
+    "onExpiration": "grace",
+    "gracePeriod": "1d0h0m",
+    "platform": "any",
+    "licenseType": "trial",
+    "productVersion": {
+      "major": 7,
+      "minor": 2
+    },
+    "limits": {
+      "default": {
+        "limitType": "unlimited",
+        "sendEvents": false
+      }
+    },
+    "licenseVersion": "1.0.0",
+    "sendStatistics": "disabled",
+    "signature": "eOPUj8lxzTlaVmgti7YTyY96yaXZzWyTVh20n9D4jJ2dChjyq6hxl1awEF4YtBvaj03Ug7ZQDHMfMGnLUu+lcm1gjFKcqGBHKrGi0SIjLgQVGxUtP5kEpOIIJz/Ks3C5tqrrfCr4LcRdF99NDHOe5Lb2bT0rhAPFbrKKNUed0qGk3gsEJBkRxH9mz5MKC4UvOtpi5ouj9LV0IYEQ34ioc6Kp8433Ce5wiU2/n8iJyMH/1v5c33Yiuxah6gRwzug7odHL7UG9Cq+ANY9ldnxzoefRoRHQmHkoTsHTMYAvG9NNafdK66NFmRQ7DOmIsyr2ALIubZMuHEMQIdIoLp/7Hm4Ac/ZcGfmGsyeaU7uI/x97OwQ7mvdvS9mUfp21ZeMj4Y1v/iwjyOOoToQoFurOEVNz6VAff4tJ0XrSB+4N1Q+NooQWcbM6wHuLEHgtLiV8eQ65uimEKk8qte0X3dr0vZytiDaATV0G1qgzeh9RXpYwV0mW22r+byhSBaFJ10QGxfcZdL4L/O7lEpkZihdUFzinp0e7GVpG+/X221MiKrHH/r8eNVNbnQYUa1QpW7yfYlmGxYjNnGEoiGNT/hM0cPfGxXKVTNBZpmmwoxBxBC/j6Ic7UwmpH42+HKp99vtcyTFuagW/83AILTC2pFsc0LEoNos7YG7eUjGPaEb8h7U="
+  },
+  {
+    "product": "pdfXfa",
+    "licensee": {
+      "company": "N/A",
+      "name": "nguyen viet hung",
+      "email": "hunga1k15tv@gmail.com"
+    },
+    "key": "c5a70569414808be7ebc20ec6b72078498ecd958e47e032067d5b2ed0261e0ae",
+    "creationDate": "2022-06-08",
+    "expirationDate": "2022-07-08",
+    "onExpiration": "grace",
+    "gracePeriod": "1d0h0m",
+    "platform": "any",
+    "licenseType": "trial",
+    "productVersion": {
+      "major": 3
+    },
+    "limits": {
+      "default": {
+        "limitType": "unlimited",
+        "sendEvents": false
+      }
+    },
+    "licenseVersion": "1.0.0",
+    "sendStatistics": "disabled",
+    "signature": "UVMjcne9W0Z6b8tqPK1MQYwNd97YnzRWGE3YYubrGElF1CNjgDM20t4atL5HNgNQEDGf6FN8AKdp1v+9y6jjxqyYU4Hc4zokjF3oMOnQcO8dBIeeYJhIouj5DTJEU15UCHmSoehdnKKcrWpOccib6KxUeYn3ICqloICgRWhaxx5l027OiVqx65kzLTcLTvhrGyjpVpEzc4OKsuyz7zN/uAyBzlrOI2X+Q1N/p6U37ngbh/AkM+QPUF2tBpnDeC2luyL7+3YqxhWmrgAhVMBBFW7zgvVrfgXuTk2kxpGC2QVzjgWgfpOeDbLJVtDyW0Yx7R6xEXRoWWwl6V+CXomM3W5e3wm81Gg8PfJ47eqUH5Z0kEGiBOc9L440Uky9ZT/ID+ZuEQeZ6QB7dbGRCN62v1cYWO6pfWJZlkTqWYqY8Oq8kTDLmMNEyJoKEHdsQ8TAZEial5IVEwFV4JvBI35Q1AmGxTfGPDrEKw87HDTbP0IaPM+Cg+FcHD1FkiaZHLNTdxfGfOEzoDSxUIUVMTw08T34X+2pQNgr0S/hulqtnfdTTYwSWrUcfNBQjI4cVU9g5LjhY3pJjNoFEi0V7SG7sBV1a+E0Kk3dlYPu44YWKAoYMAM1twmy5oGnq1JkSXv7KjgHN9XvFNgTCRdX7c6K+V7zPvH1kilGX5iYxHQY5n4="
+  },
+  {
+    "product": "pdfSweep",
+    "licensee": {
+      "company": "N/A",
+      "name": "nguyen viet hung",
+      "email": "hunga1k15tv@gmail.com"
+    },
+    "key": "c5a70569414808be7ebc20ec6b72078498ecd958e47e032067d5b2ed0261e0ae",
+    "creationDate": "2022-06-08",
+    "expirationDate": "2022-07-08",
+    "onExpiration": "grace",
+    "gracePeriod": "1d0h0m",
+    "platform": "any",
+    "licenseType": "trial",
+    "productVersion": {
+      "major": 3
+    },
+    "limits": {
+      "default": {
+        "limitType": "unlimited",
+        "sendEvents": false
+      }
+    },
+    "licenseVersion": "1.0.0",
+    "sendStatistics": "disabled",
+    "signature": "WRDts0V0CXuSxrxjDmRJhBDje1hiepalUAE5P99vFy5pU1eQvjzHqbw+5mgxo/b0Thc5GrAdZlGHx6dv/Z4rzgOJbwSiwD9SS93xNLl045gOiKRP9lPDIh8ZiCfwGMBCII+XgLeEvy/U+RC5ck1pdK/YHKfafCWBTpWZeLwdpSCSRbZIH9+Kd5p2RkD4jCj+fA2o+clTMSkCVinqCZxw2/5MfI9mQRGkW8c9wOzYnBOK8h1JS0TX8c0sVBhBdCAjvfbHwzOBgvdB82sxfUWtiiTe5k2wJNfXfE5umzJftubAfm/Or7OOAEJRbD3mG2GCbCnd1uxVaeejzm2hBLqrHYLvYPHia7SsV95kT2+Hq/DfSBsz/+y19Q/Fab9zA9ZD6v5y3vZnQoLmrBReAABp5YWnwJ3T30PuKyuGnrPeGyLF3xaykZ407tDC95vyUVyVfW2W/oF2TfL9NmDP62uVbr26dAswulRWoKePT2zRgCV8DSLQyqREWMNSXT9N8loM7nhzZ4w4B54k2NYl8+VUW3Kmwu+sUUUHV2bRxGFYrLZFNsSw1QC6OIAPngyO6M1ywkOBOGEIBf1jZUy7ybUaFenbL8XuHc7WKdJ5DMZ4d4Ly8K88yRlQy4LdVVdGGVw+s1IdFDcgwB/fhuJBomZC3dX1XztzpvNquDP5jwChXGk="
+  },
+  {
+    "product": "pdfRender",
+    "licensee": {
+      "company": "N/A",
+      "name": "nguyen viet hung",
+      "email": "hunga1k15tv@gmail.com"
+    },
+    "key": "c5a70569414808be7ebc20ec6b72078498ecd958e47e032067d5b2ed0261e0ae",
+    "creationDate": "2022-06-08",
+    "expirationDate": "2022-07-08",
+    "onExpiration": "grace",
+    "gracePeriod": "1d0h0m",
+    "platform": "any",
+    "licenseType": "trial",
+    "productVersion": {
+      "major": 2
+    },
+    "limits": {
+      "default": {
+        "limitType": "unlimited",
+        "sendEvents": false
+      }
+    },
+    "licenseVersion": "1.0.0",
+    "sendStatistics": "disabled",
+    "signature": "AwoGoHD6yGMJkm3UsU58dinwwougqgzm1XSylxU9bz0NrjS4q3jsmB87cYoJaFWPgxsXnkn+7liE8ILQ7GtBvnemBP7gBNjIibnpvZ6OHvBeSKNgRAuraUX+zNx3kzU5gd17eeQOkypADF9tJABa92gAW3vWbzHEnGE+VJIP1dpoKJZlVAHn2IqAiYFzppLxpt1wvF48XpJbJE8tDt2zCYxE1h9shM5luCQ/iOwQbA6hP1T41LRXpknxTx6P0FRXBk7hST709e9ZW6lAShW5cpQJsgxB5ps7TpySR/JmfsHunm4RTi/vUiga0ONjjv1A8BIX983XWYfPHIqAkde8W9XLxpVsSHbblZ/PqGfK6yeDoeJ6Oh3P2aRpGe9c82bpUBQ+L744busqfr2br/Xd4PsjIaBD8O5uPQLEc6NyEwVkonVgYUS8p1sXiRk4W+yhPdbc7rXHPV09AKeeSsDNc0MX4S+t/jMC9akf9jH59Klt9939hXHgQw/GQGqJaKWv0PdNnoEk5lUrqpeW7gjtlxrJTIMJbAOUh2rhq4uTAb1TzlXho0cRdGZ4zaIDz3dnprbfRw+5PrCWvv0o2t/H2pFW7XIa6OHificknFRGjGrjIgsZvA/U1oyLBvAi5uL6kWkhxJRWntTFXmbj5BGt4ceogibjEF/woY2Mgm4pmZA="
+  },
+  {
+    "product": "pdfOcr-tesseract4",
+    "licensee": {
+      "company": "N/A",
+      "name": "nguyen viet hung",
+      "email": "hunga1k15tv@gmail.com"
+    },
+    "key": "c5a70569414808be7ebc20ec6b72078498ecd958e47e032067d5b2ed0261e0ae",
+    "creationDate": "2022-06-08",
+    "expirationDate": "2022-07-08",
+    "onExpiration": "grace",
+    "gracePeriod": "1d0h0m",
+    "platform": "any",
+    "licenseType": "trial",
+    "productVersion": {
+      "major": 2
+    },
+    "limits": {
+      "default": {
+        "limitType": "unlimited",
+        "sendEvents": false
+      }
+    },
+    "licenseVersion": "1.0.0",
+    "sendStatistics": "disabled",
+    "signature": "aO0nt8X6FrMY9nJ4IpvPIrl/gm9lV8VmcaafC1KIb3M3BkWTb3AMe8Z4+ZgPil/zGQ11/X9y2VKwBYW0Dt7V9KbZFkEx6EgI/MtDhxitpsuKDAqyL5E+Wubhn2DjGpUK2gTcOF5w15mb7XyXcm13dNGvT1FGPWcT5yVhTXELN6njZNUXRuY2npVy8xGsnDfBYpuk9uF4xwd+7PlpxkqkdiKxRC3M60v8JtXX7aSATQ8OA1klq4dH7ZrzWvdf1DeYqepMJeNw4jtAZbtdAQEwkB5KKFjHQfk45hAQkC2VdmgIjuV4/eNzxdlC5HynWdty7X7JvQW5zTJ74FRG1fxKhmBUUXWD6Yy5bRJH79Jc+6uayRT05cyMFOaNWMhqo2iJvCBj3/1vt0xgbkNbaOLuLtuyYPX3X380CK/xiHHOchzaN1og1VIiQT7ytSsJFtwir8FNT7ol+WnjTkjfTY/avU2R3820gEE79T8xU+i/iqgMXdT2W3hlK3PfN2U3//yLDtAOLyKIvtS2ea0rIYG0oboXiPHapa8ve3DZoeSnNMTBGOw/+boYCHSDkw6nqHE0zVWYBGLS+jbc6I9dvQKqRap95Q9fjj28A1UT8IpVxNlINaFk3eDE5wYXPUoJxb03QmkZz/CHGNfSwKX84KB4WNggwSsIVb+rRe27Yywrhb4="
+  },
+  {
+    "product": "pdfOptimizer",
+    "licensee": {
+      "company": "N/A",
+      "name": "nguyen viet hung",
+      "email": "hunga1k15tv@gmail.com"
+    },
+    "key": "c5a70569414808be7ebc20ec6b72078498ecd958e47e032067d5b2ed0261e0ae",
+    "creationDate": "2022-06-08",
+    "expirationDate": "2022-07-08",
+    "onExpiration": "grace",
+    "gracePeriod": "1d0h0m",
+    "platform": "any",
+    "licenseType": "trial",
+    "productVersion": {
+      "major": 2
+    },
+    "limits": {
+      "default": {
+        "limitType": "unlimited",
+        "sendEvents": false
+      }
+    },
+    "licenseVersion": "1.0.0",
+    "sendStatistics": "disabled",
+    "signature": "U2Kutc6TKEhmbHWh57+AyHmgHbUEVl/AlogTLJuSalGXN2b8DtDukDKsK2fTCCvVbVvRdC5XcdDekIEfvcLlXwmS2vxUulQWjC3uJfTGL6jxV/V8YbZb65YYH1Z+xInOBxFuy8pW+HMOJJCHQPcvnEcPNsE5R6GUqeOQAbVEcb5spo4r2ZJ9OUYbfTYQNZEICQIJxGrxR5xPnWiTwHSqLKGFCWSPVTPKzaOGOcAWN5qRg2cVLqO//p38Qr8IXT1srM0NtD+eXg2v7Zyf1G39VaRSnXPustDGCRjvecNvy20IAoNIKqdR0z2I2h5X1y0FF23b5lLGW3In2dHEivOrJ9VwDm1MUXauf1iUMiv1/1QYlZv4BoO3ewruHcQ84+bvZdTue9L+lWXaH4GDMq8Zw4oQfihL98uacpZ5xvjJpHV7rYBd9S4S5tkrPucBpMFMIMqelXKMB/f3Q6BPacJEVo2PH6WKwJDV8q5TfOgeKDAJIbmOeej7GLHAdCTl8pSse9e6ejFC8ArUi99uw5dtQoONP7dL0AOZ1QVaOKaUXayAfmLfYJZEfEUVgPo06EXc2uSwDfXqBKl1XlARmjZxsW5w6RrsmReuhHTb9Yg57qAr8BumsZH/ERm8hJYQVJR7AZhx8sMLrMsf9lpT+94S6IOiyeAhly2W35zZMhHnfcY="
+  },
+  {
+    "product": "pdfHtml",
+    "licensee": {
+      "company": "N/A",
+      "name": "nguyen viet hung",
+      "email": "hunga1k15tv@gmail.com"
+    },
+    "key": "c5a70569414808be7ebc20ec6b72078498ecd958e47e032067d5b2ed0261e0ae",
+    "creationDate": "2022-06-08",
+    "expirationDate": "2022-07-08",
+    "onExpiration": "grace",
+    "gracePeriod": "1d0h0m",
+    "platform": "any",
+    "licenseType": "trial",
+    "productVersion": {
+      "major": 4
+    },
+    "limits": {
+      "default": {
+        "limitType": "unlimited",
+        "sendEvents": false
+      }
+    },
+    "licenseVersion": "1.0.0",
+    "sendStatistics": "disabled",
+    "signature": "Q03BtwtVgSpfvox/lSO0tVOJxO39MA5K3mH0e7zNWH4BHDk/ewe6oZ+x8/ajxlcmrbzH9gQBq6Uj6BQq2gVWuiklCcJxtlhO+nVnfs4NfqxqgJMx/yFL+5HHvazU7oUp6IGR1MiDmEPeO+kHfnBc9lVALSijzvEgPU5Fv0ZOWEsLs4dCSmvu28h3Y4DlXWUE6zr4IaAh0mkWmZhXcBCTwDeWTBVuPV3RpPAZyUXVnJwuluXrPSACS1bP3n4d4oJ8nHvAPppZiCMcDuUrEzXTvq9aEFs31JqCDJcykfLRljzm7cif0GZmwQoVTQZONvRp+gDdHfVppZ6s1Xyxdjdn0UELHaWGroEszy54U5K6Hev+CjgnVvkG3uIQtoz7K4r0WHEiwNCzhq59Sq+oSf9tXa/dZWqu3NUtgTFZpD9pXoX0REKejTSYbrIL8QbXxM+qfYCgB5CaIRWq+wfrEeOULpJqW5jwVtpSGNlyJRXFI3j2noqy2ady5N6RCN0e5oEfcvpcFOd7H3PpgxNX5B6jubRRpizzlKkBDRif14Hfm65q0FpWr/NUR0PI9e2LzSugfu3JJoDVH7L0uH6ImawwIiK0hPKX1sHgPj3sYjAP3lurFZMv9OxYrW1ro4KZM2BMBaElGwCcQX71TlL8d0On3S81A+E7T2BRY8XtY/wEyX0="
+  },
+  {
+    "product": "pdfCalligraph",
+    "licensee": {
+      "company": "N/A",
+      "name": "nguyen viet hung",
+      "email": "hunga1k15tv@gmail.com"
+    },
+    "key": "c5a70569414808be7ebc20ec6b72078498ecd958e47e032067d5b2ed0261e0ae",
+    "creationDate": "2022-06-08",
+    "expirationDate": "2022-07-08",
+    "onExpiration": "grace",
+    "gracePeriod": "1d0h0m",
+    "platform": "any",
+    "licenseType": "trial",
+    "productVersion": {
+      "major": 3
+    },
+    "limits": {
+      "default": {
+        "limitType": "unlimited",
+        "sendEvents": false
+      }
+    },
+    "licenseVersion": "1.0.0",
+    "sendStatistics": "disabled",
+    "signature": "QdtfYatdQcj10hM++H7MOelWEhdnEMLhuXC/JApzUSC4h4TA3X42JesNKrbN/pGcruA+fhWXM/YSXElK9/rR5rZYmTQT+5kK9D4xTzhZ9sqF0VQHic+9IyO+UGxXR7ytJA3UFRqhzOE4q+xrfvrUG7wTmkJTvASosMWl8E4jcpu2Cenz0Edc4him1dMBB7flENestPaiIwUcEEG76PgjdaZlkwlmuVFt3dOAVNifTue6amA3c5hg8Ef3RSfTdA4kwT/IswSudPITSYjAN+Ca2sb247DzTLNyf63U7w/cFf8HAd8tJNQqj71BAWxj4vtRbdAmpBpEr5NyLeHxdevpzeWmolF7rdfdeeptL+17FzY3JpHMTF1W0u33sCcCtenOKbqBJ0Vg7daIYPJ/7ybQAMZ04wj8KbAAo7F804uKkXL6NSzlfQZbhVAAuxsTWP/5P8PSVaqV2onVgT3/rwoET8fTi0h5zERwCekAPIZziRLG9uFRS1qdM1oJ0q5PbefZr+3phj67PihOFtWwTvZfy8/sgvFWwAgdVGNAP+Tn5lDi+AcP69gFVDZSQPyJxVD5dZ3LmlqCNMB4KeR3qZpFAXP593bu9XZ+zagJpc2D5yLwuJWre/SO7qLPNibw/1UYJEib8Jtz3Pfy4Et9usWZqSwx6qpR6dyVNZdhmWP9A7M="
+  },
+  {
+    "product": "pdfOffice",
+    "licensee": {
+      "company": "N/A",
+      "name": "nguyen viet hung",
+      "email": "hunga1k15tv@gmail.com"
+    },
+    "key": "c5a70569414808be7ebc20ec6b72078498ecd958e47e032067d5b2ed0261e0ae",
+    "creationDate": "2022-06-08",
+    "expirationDate": "2022-07-08",
+    "onExpiration": "grace",
+    "gracePeriod": "1d0h0m",
+    "platform": "any",
+    "licenseType": "trial",
+    "productVersion": {
+      "major": 2
+    },
+    "limits": {
+      "default": {
+        "limitType": "unlimited",
+        "sendEvents": false
+      }
+    },
+    "licenseVersion": "1.0.0",
+    "sendStatistics": "disabled",
+    "signature": "GrQ6VGyMN8o0s/V435ByaeRQOS+Rr7Nkv2QkNxtmoKg4ciyFFi/BWoofpWzv4JuMYGK6PoynPO2DAQOG7Ffn1avVqxO2A8js0/wB1LndproYtwW4XYjE8jf1DkN4CYqq2bdDt7dYqchlsIFcV3hSjNCHncySk/Vlkl8X3mavv3HdoJVF7g+k3ryw9NnBjjOJnLOO0TddvDUGfQD5vSgr5Ope7iFFE6A2zBzszJr1jHOmfVA4auujKHrou+MgUsUqJW1rweVQz6rIY9tmeShPVu9jJz+AQv0q9+FgAIUqLR6v4G4IcQOReMP/uAv03mJHdAZI3xUJmlEPqrYWmr/WBSTIqAX+ELdZJIs1yUAYDARCNyo09JIO/EWamV+wigNI8i6AAB2JQARfgkU5c9IBH4pUqdNJZXtt9F/ouHMSFv80mREl8dmPKY7BCqueNCL6iJguWzRloCU0ZnS0PpGGGi11SbSVz/xEAqoXVT+OQqtmt95jzfBGvaoqHTIZPWrr7CRUadeZxPxa4Qtj29IwQrXBZXAfDLz3HkxuNib+gdnBhsL3qwSmUHdB3IvxPqD4sZfQC8GoBC8k7X/OVxxwHvhZWkPWv5uTxyGifvg5ckTwYJpjnVC6JM6DWlkwIzYYbBYvVBDVTfsWtJdHowLXSq5OYv1j7bIaaQZC4/kZHbs="
+  }
+]

@@ -18,7 +18,7 @@ public class C3_02_GetCrlUrl {
         Properties properties = new Properties();
 
         // Specify the correct path to the certificate
-        properties.load(new FileInputStream("c:/home/blowagie/key.properties"));
+        properties.load(new FileInputStream("./src/test/resources/encryption/key.properties"));
         String path = properties.getProperty("PRIVATE");
         char[] pass = properties.getProperty("PASSWORD").toCharArray();
 

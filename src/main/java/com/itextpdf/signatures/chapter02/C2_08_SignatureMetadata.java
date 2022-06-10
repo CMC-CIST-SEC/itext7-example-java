@@ -17,12 +17,15 @@ import java.security.PrivateKey;
 import java.security.Security;
 import java.security.cert.Certificate;
 
+/**
+ * Custom signature dictionary
+ */
 public class C2_08_SignatureMetadata {
     public static final String DEST = "./target/signatures/chapter02/";
-    public static final String KEYSTORE = "./src/test/resources/encryption/ks";
+    public static final String KEYSTORE = "./src/test/resources/encryption/598447.p12";
     public static final String SRC = "./src/test/resources/pdfs/hello_to_sign.pdf";
 
-    public static final char[] PASSWORD = "password".toCharArray();
+    public static final char[] PASSWORD = "598447".toCharArray();
 
     public static final String[] RESULT_FILES = new String[] {
             "field_metadata.pdf"
@@ -50,6 +53,7 @@ public class C2_08_SignatureMetadata {
                     @Override
                     public void getSignatureDictionary(PdfSignature sig) {
                         sig.put(PdfName.Name, new PdfString(fullName));
+                        sig.put(PdfName.Author, new PdfString("hoang minh"));
                     }
                 }
         );
@@ -74,8 +78,8 @@ public class C2_08_SignatureMetadata {
         Certificate[] chain = ks.getCertificateChain(alias);
 
         C2_08_SignatureMetadata app = new C2_08_SignatureMetadata();
-        app.sign(SRC, "Signature1", DEST + RESULT_FILES[0], chain, pk, DigestAlgorithms.SHA256,
+        app.sign(SRC, "Hunghust", DEST + RESULT_FILES[0], chain, pk, DigestAlgorithms.SHA256,
                 provider.getName(), PdfSigner.CryptoStandard.CMS, "Test metadata",
-                "Ghent", "555 123 456", "Bruno L. Specimen");
+                "Ghent", "0889717422", "nguyen viet hung");
     }
 }

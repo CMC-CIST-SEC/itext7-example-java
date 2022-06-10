@@ -47,7 +47,7 @@ public class C3_03_SignWithCRLDefaultImp {
         Properties properties = new Properties();
 
         // Specify the correct path to the certificate
-        properties.load(new FileInputStream("c:/home/blowagie/key.properties"));
+        properties.load(new FileInputStream("./src/test/resources/encryption/signkey.properties"));
         String path = properties.getProperty("PRIVATE");
         char[] pass = properties.getProperty("PASSWORD").toCharArray();
 

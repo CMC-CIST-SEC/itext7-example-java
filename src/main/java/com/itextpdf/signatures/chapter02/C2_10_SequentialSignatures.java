@@ -26,6 +26,9 @@ import java.security.PrivateKey;
 import java.security.Security;
 import java.security.cert.Certificate;
 
+/**
+ * Ký lần lượt
+ */
 public class C2_10_SequentialSignatures {
 
     public static final String DEST = "./target/signatures/chapter02/";

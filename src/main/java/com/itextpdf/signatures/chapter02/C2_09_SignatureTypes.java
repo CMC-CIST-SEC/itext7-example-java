@@ -19,12 +19,15 @@ import java.security.PrivateKey;
 import java.security.Security;
 import java.security.cert.Certificate;
 
+/**
+ * Add comment, add text, signagain, certification level
+ */
 public class C2_09_SignatureTypes {
     public static final String DEST = "./target/signatures/chapter02/";
-    public static final String KEYSTORE = "./src/test/resources/encryption/ks";
+    public static final String KEYSTORE = "./src/test/resources/encryption/598447.p12";
     public static final String SRC = "./src/test/resources/pdfs/hello.pdf";
 
-    public static final char[] PASSWORD = "password".toCharArray();
+    public static final char[] PASSWORD = "598447".toCharArray();
 
     public static final String[] RESULT_FILES = new String[] {
             "hello_level_1.pdf", "hello_level_2.pdf",
@@ -51,7 +54,7 @@ public class C2_09_SignatureTypes {
         Rectangle rect = new Rectangle(36, 648, 200, 100);
         appearance.setPageRect(rect);
         appearance.setPageNumber(1);
-        signer.setFieldName("sig");
+        signer.setFieldName("Ky vao day");
 
         /* Set the document's certification level. This parameter defines if changes are allowed
          * after the applying of the signature.
@@ -70,7 +73,7 @@ public class C2_09_SignatureTypes {
         PdfDocument pdfDoc = new PdfDocument(reader, new PdfWriter(dest), new StampingProperties().useAppendMode());
         PdfPage firstPage = pdfDoc.getFirstPage();
 
-        new Canvas(firstPage, firstPage.getPageSize()).showTextAligned("TOP SECRET", 36, 820,
+        new Canvas(firstPage, firstPage.getPageSize()).showTextAligned("TOP Hoang Mai", 36, 820,
                 TextAlignment.LEFT);
 
         pdfDoc.close();
@@ -83,8 +86,8 @@ public class C2_09_SignatureTypes {
         PdfAnnotation comment = new PdfTextAnnotation(new Rectangle(200, 800, 50, 20))
                 .setOpen(true)
                 .setIconName(new PdfName("Comment"))
-                .setTitle(new PdfString("Finally Signed!"))
-                .setContents("Bruno Specimen has finally signed the document");
+                .setTitle(new PdfString("Lan ky cuoi!"))
+                .setContents("hunghust da ky");
         pdfDoc.getFirstPage().addAnnotation(comment);
 
         pdfDoc.close();
@@ -97,8 +100,8 @@ public class C2_09_SignatureTypes {
         PdfAnnotation comment = new PdfTextAnnotation(new Rectangle(200, 800, 50, 20))
                 .setOpen(true)
                 .setIconName(new PdfName("Comment"))
-                .setTitle(new PdfString("Finally Signed!"))
-                .setContents("Bruno Specimen has finally signed the document");
+                .setTitle(new PdfString("Lan ky cuoi"))
+                .setContents("hunghust da ky");
         pdfDoc.getFirstPage().addAnnotation(comment);
 
         pdfDoc.close();
@@ -117,7 +120,7 @@ public class C2_09_SignatureTypes {
         Rectangle rect = new Rectangle(36, 700, 200, 100);
         appearance.setPageRect(rect);
         appearance.setPageNumber(1);
-        signer.setFieldName("Signature2");
+        signer.setFieldName("hunghust 2");
 
         PrivateKeySignature pks = new PrivateKeySignature(pk, digestAlgorithm, provider);
         IExternalDigest digest = new BouncyCastleDigest();

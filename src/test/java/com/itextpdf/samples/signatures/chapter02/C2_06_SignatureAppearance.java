@@ -5,7 +5,9 @@ import com.itextpdf.io.font.constants.StandardFonts;
 import com.itextpdf.io.image.ImageDataFactory;
 import com.itextpdf.kernel.font.PdfFontFactory;
 import com.itextpdf.kernel.font.PdfFontFactory.EmbeddingStrategy;
+import com.itextpdf.kernel.pdf.PdfName;
 import com.itextpdf.kernel.pdf.PdfReader;
+import com.itextpdf.kernel.pdf.PdfString;
 import com.itextpdf.kernel.pdf.StampingProperties;
 import com.itextpdf.kernel.pdf.xobject.PdfFormXObject;
 import com.itextpdf.layout.Canvas;
@@ -13,13 +15,9 @@ import com.itextpdf.layout.properties.BaseDirection;
 import com.itextpdf.layout.element.Paragraph;
 import com.itextpdf.layout.element.Text;
 import com.itextpdf.layout.properties.TextAlignment;
-import com.itextpdf.signatures.BouncyCastleDigest;
-import com.itextpdf.signatures.DigestAlgorithms;
-import com.itextpdf.signatures.IExternalDigest;
-import com.itextpdf.signatures.IExternalSignature;
-import com.itextpdf.signatures.PdfSignatureAppearance;
-import com.itextpdf.signatures.PdfSigner;
-import com.itextpdf.signatures.PrivateKeySignature;
+import com.itextpdf.licensing.base.LicenseKey;
+import com.itextpdf.licensing.base.licensefile.Licensee;
+import com.itextpdf.signatures.*;
 
 import org.bouncycastle.jce.provider.BouncyCastleProvider;
 
@@ -62,6 +60,16 @@ public class C2_06_SignatureAppearance {
 
         // This name corresponds to the name of the field that already exists in the document.
         signer.setFieldName(name);
+
+        signer.setSignatureEvent(
+                new PdfSigner.ISignatureEvent() {
+                    @Override
+                    public void getSignatureDictionary(PdfSignature sig) {
+                        sig.put(PdfName.Name, new PdfString("Nguyen Viet Hung"));
+                        sig.put(PdfName.Author, new PdfString("hoang minh"));
+                    }
+                }
+        );
 
         // Set the custom text and a custom font
         appearance.setLayer2Text("This document was signed by Bruno Specimen");
@@ -144,6 +152,7 @@ public class C2_06_SignatureAppearance {
     }
 
     public static void main(String[] args) throws IOException, GeneralSecurityException {
+        LicenseKey.loadLicenseFile(new File("./licensekey.json"));
         File file = new File(DEST);
         file.mkdirs();
 
